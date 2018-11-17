@@ -8,7 +8,9 @@ node_modules
 build/
 coverage/
 *.map
-public
+
+# public
+workspaces/client/public/main.js
 
 # OS X
 .DS_Store
