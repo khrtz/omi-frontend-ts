@@ -1,0 +1,14 @@
+{
+  "name": "omi-frontend-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "cd ./workspaces/client && yarn watch",
+    "build": "cd ./workspaces/client && yarn build"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ]
+}

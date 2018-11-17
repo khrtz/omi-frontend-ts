@@ -1,0 +1,23 @@
+{
+  "name": "omi-frontend-ts-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "webpack-dev-server --hot --mode development --port 5555",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "omi": "^4.1.4",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "file-loader": "^2.0.0",
+    "ts-loader": "^5.3.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
